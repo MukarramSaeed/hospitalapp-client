@@ -1,0 +1,27 @@
+.container-physio {
+  margin: 0 auto;
+  width: 80%;
+}
+.container-physio-text {
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.container-checkbox {
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+.physio-name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+}
+.physio-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}

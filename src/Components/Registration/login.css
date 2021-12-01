@@ -1,0 +1,107 @@
+/* Login box design  */
+.login-box {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  padding: 2%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 10px;
+}
+.img {
+  text-align: center;
+  margin-bottom: 41px;
+}
+.title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #413e3e;
+  margin-bottom: 13px;
+}
+
+/* input design  */
+
+.input-field {
+  width: 100%;
+  margin-bottom: 13px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.login-box input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid rgb(29, 18, 18);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(63, 52, 52);
+  font-size: 16px;
+}
+.username,
+.password {
+  margin-bottom: 48px;
+}
+.login-btn {
+  text-align: center;
+}
+.submit-btn {
+  width: 148px;
+  height: 52px;
+  outline: none;
+  border: none;
+  background-color: #04d99d;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+.submit-btn:hover {
+  background-color: #0f8c8c;
+}
+/* Register and forget password section */
+
+.final-text {
+  text-align: center;
+}
+.forget {
+  font-size: 14px;
+  color: #0e5959;
+  text-decoration: underline;
+  margin-bottom: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.forget:hover {
+  color: #0f8c8c;
+}
+.new-account {
+  color: #04d99d;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.new-account:hover {
+  color: #0e5959;
+}
+/* place holder design  */
+::-webkit-input-placeholder {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.733);
+  opacity: 0.3;
+}
+
+/*responsive*/
+@media (max-width: 1280px) {
+  .login-box {
+    width: 50%;
+  }
+}
+@media (max-width: 780px) {
+  .login-box {
+    width: 70%;
+  }
+}

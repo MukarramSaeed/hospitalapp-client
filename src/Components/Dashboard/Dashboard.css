@@ -1,0 +1,47 @@
+.clinect-dashboar {
+  text-align: center;
+}
+.good-morning {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.Client-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.appoinment-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.appoinment {
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem;
+  justify-content: center;
+  background-color: rgb(211, 211, 211);
+  width: 30%;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.appoinment-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.appoinment-img {
+  margin: 0 20px;
+}
+/*responsive*/
+@media (max-width: 1080px) {
+  .appoinment {
+    width: 70%;
+  }
+}
+@media (max-width: 780px) {
+  .appoinment {
+    width: 70%;
+  }
+}

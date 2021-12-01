@@ -1,0 +1,22 @@
+.booking-nav {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.booking-nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.nav-btn-booking {
+  color: white;
+  width: 264px;
+  height: 56px;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  border: none;
+  outline: rgba(143, 138, 138, 0.678);
+  background-color: #04d99d;
+  cursor: pointer;
+}

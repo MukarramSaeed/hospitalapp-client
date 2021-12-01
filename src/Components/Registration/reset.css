@@ -1,0 +1,10 @@
+.center-reset-success {
+  background-color: rgb(255, 255, 255);
+  width: 360px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.icon-tick {
+  text-align: center;
+  margin: 0 auto;
+}

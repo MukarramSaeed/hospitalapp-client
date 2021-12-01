@@ -1,0 +1,12 @@
+.cancel-booking {
+  margin: 0 auto;
+  text-align: center;
+}
+.cancel-booking-title {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.cancel-booking-details {
+  margin-bottom: 20px;
+}

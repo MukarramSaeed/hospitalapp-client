@@ -1,0 +1,27 @@
+.sucessregister {
+  margin-left: 30px;
+  margin-top: 38px;
+}
+.center-register-success {
+  background-color: rgb(255, 255, 255);
+  width: 360px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.activate-account p {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+.reset-title {
+  text-align: center;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}

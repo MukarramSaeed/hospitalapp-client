@@ -1,0 +1,35 @@
+.container-symptoms {
+  width: 40%;
+  padding: 10px;
+  margin: 0 auto;
+}
+.container-title {
+  text-align: center;
+}
+.container-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 15px;
+}
+.container-description {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 50px;
+}
+.symptoms {
+  margin-bottom: 60px;
+}
+.symptom-title {
+  font-size: 18px;
+  margin-bottom: 31px;
+}
+.title-checkliist {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 23px;
+}
+.container-checkbox-list {
+  margin-bottom: 22px;
+  font-size: 14px;
+}

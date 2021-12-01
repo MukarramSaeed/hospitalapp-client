@@ -1,0 +1,38 @@
+.shared-logo {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.drawer-right {
+  padding: 2rem;
+}
+.drawer {
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.drawer .Link {
+  text-decoration: none;
+  color: rgb(4, 105, 105);
+  padding: 0px 20px;
+}
+.drawer-icon {
+  cursor: pointer;
+}
+
+/* mobile responsive */
+@media (max-width: 780px) {
+  .shared-logo {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .logo-img {
+    width: 50%;
+  }
+}

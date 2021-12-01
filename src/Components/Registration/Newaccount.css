@@ -1,0 +1,73 @@
+/* Logo position start */
+
+.newaccount-logo {
+  margin-top: 38px;
+  margin-left: 30px;
+}
+.logo-img {
+  width: 232px;
+  height: 90px;
+}
+
+/* Logo position end */
+
+.newaccount-from {
+  background-color: rgb(255, 255, 255);
+  width: 360px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.profile-upload {
+  text-align: center;
+}
+.profile-picture {
+  margin-bottom: 15px;
+}
+input[type="file"] {
+  display: none;
+}
+label {
+  color: rgb(255, 255, 255);
+  height: 52px;
+  width: 148px;
+  background-color: #0f8c8c;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+label:hover {
+  cursor: pointer;
+  background-color: #04afaf;
+}
+
+.firstname,
+.lastname,
+.email,
+.password,
+.doctor-code {
+  margin-bottom: 0px;
+}
+.title-register {
+  font-size: 14px;
+  font-weight: 400;
+  color: #413e3e;
+  margin-bottom: 0px;
+}
+
+.input-field {
+  width: 100%;
+  margin-bottom: 13px;
+  font-size: 14px;
+  font-weight: 400;
+}
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid rgb(29, 18, 18);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(63, 52, 52);
+  font-size: 16px;
+}
